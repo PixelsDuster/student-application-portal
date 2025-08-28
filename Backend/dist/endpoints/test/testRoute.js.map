@@ -1,0 +1,1 @@
+{"version":3,"file":"testRoute.js","sourceRoot":"","sources":["../../../endpoints/test/testRoute.ts"],"names":[],"mappings":";AAAA,yBAAyB;;;;;AAEzB,sDAA2D;AAE3D,MAAM,MAAM,GAAW,iBAAO,CAAC,MAAM,EAAE,CAAC;AAGxC,MAAM,CAAC,GAAG,CAAC,OAAO,EAAE,CAAC,GAAY,EAAE,GAAa,EAAE,EAAE;IAChD,GAAG,CAAC,IAAI,CAAC,aAAa,CAAC,CAAA;AAC3B,CAAC,CAAC,CAAA;AAEF,kBAAe,MAAM,CAAC"}

@@ -1,0 +1,16 @@
+# Test: Token expiration
+
+### Login with Basic Authentication as admin
+# @name loginAdminCorrect
+GET http://localhost/api/authenticate
+Authorization: Basic YWRtaW46MTIz
+
+
+### Fetch all users with admin token (should succeed)
+GET http://localhost/api/users
+Authorization: {{loginAdminCorrect.response.headers.Authorization}}
+
+
+### Wait 5 minutes and try again
+GET http://localhost/api/users
+Authorization: {{loginAdminCorrect.response.headers.Authorization}}
